@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class CSVHelper {
-    private CSVHelper() {};
+    private CSVHelper() {}
     public static List<Logs> parseLogs(MultipartFile file) throws IOException {
         List<Logs> logsList = new ArrayList<>();
 
